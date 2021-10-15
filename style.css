@@ -1,1 +1,44 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+
+.produit {
+    color: coral;
+    font-style: italic;
+}
+
+.reference {
+    font-style: italic;
+}
+
+.general {
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#last {
+    color: blue;
+    font-size: small;
+}
+
+#first h3 {
+    color: red;
+    text-transform: uppercase;
+}
+
+blockquote p::first-letter {
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+th {
+    font-variant: small-caps;
+}
 
