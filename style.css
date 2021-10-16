@@ -25,6 +25,7 @@ h1, h2, h3 {
 #last {
     color: blue;
     font-size: small;
+    background: #C0C0C0;
 }
 
 #first h3 {
@@ -40,5 +41,21 @@ blockquote p::first-letter {
 
 th {
     font-variant: small-caps;
+    text-decoration-line: underline;
 }
 
+.reference {
+    background: lightgray;
+}
+
+blockquote p {
+    padding-left: 20px;
+}
+
+.produit::first-letter {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: circle;
+}
